@@ -66,16 +66,13 @@ wptKey: "5de2b81d6edfccc9a7a55b442e36b7b6debcb988b7c2f2a6d5bef925e50223d8ca2d"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#alerts:
-#  emailAlert:
-#    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS"]
-#  otherEmailAlert:
-#    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
-#  slackAlert:
-#    type: "slack"
-#    hookUrl: "ENCRYPTED_SLACK_HOOK_URL"
-#    channel: "#speedtracker"
-#    username: "SpeedTracker"
-#    iconEmoji: ":grimacing:"
+alerts:
+  emailAlert:
+    type: "email"
+    recipients: ["71afe24e37ccdb85b0ff05122214b4e8dee7ec90b09cac"]
+  slackAlert:
+    type: "slack"
+    hookUrl: "74b8fb5f2a838784abf907163f7aa0e9deedeb90b09cace894e9bb63ba5622998749238fb19a46be6e940d25da164fb6c98218d07eb13e28d5a3b626de711a6d3377f057425f427c5a13b8f171"
+    channel: "#integrations"
+    username: "SpeedTracker"
+    iconEmoji: ":grimacing:"
